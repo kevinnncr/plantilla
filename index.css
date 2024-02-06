@@ -104,3 +104,19 @@ footer p {
         width: 30%;
     }
 }
+
+
+@keyframes entradaDesdeAbajo {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+header img, footer p,div img,div button {
+    animation: entradaDesdeAbajo 2s ease-out forwards;
+}
