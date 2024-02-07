@@ -5,11 +5,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #FFFFFF;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
 }
 
 header, footer {
-    background-color: #F1E9DB;
+    background-color: #080705;
     color: #333333;
     padding: 20px;
     border-bottom: 3px solid #000000;
@@ -17,7 +17,7 @@ header, footer {
 }
 
 .logo img {
-    height: 80px;
+    height: 100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -84,11 +84,12 @@ footer {
 }
 
 footer p {
-    color: #000000;
+    color: #ffffff;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px ) {
     footer {
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -96,12 +97,14 @@ footer p {
 
     footer p {
         width: 45%;
+        
     }
 }
 
 @media screen and (min-width: 900px) {
     footer p {
         width: 30%;
+        
     }
 }
 
